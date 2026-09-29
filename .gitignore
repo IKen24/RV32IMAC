@@ -1,0 +1,28 @@
+# Build outputs
+build/
+*.vvp
+*.vcd
+*.fst
+
+# Simulator / synth artifacts
+*.out
+*.log
+*.jou
+*.str
+
+# Editor / OS
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Python (in case of future scripts)
+__pycache__/
+*.pyc
+
+# FPGA project files (add vendor-specific as needed)
+*.qpf
+*.qsf
+*.runs/
+db/
+incremental_db/
